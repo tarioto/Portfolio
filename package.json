@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplate",
+  "name": "tims-portfolio",
   "version": "3.4.0",
-  "description": "A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices",
+  "description": "Tim Arioto's Portfolio",
   "repository": {
     "type": "git",
     "url": "git://github.com/react-boilerplate/react-boilerplate.git"
