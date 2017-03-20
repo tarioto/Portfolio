@@ -7,6 +7,7 @@ const Wrapper = styled.footer`
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: black;
+  color: white;
 `;
 
 export default Wrapper;
