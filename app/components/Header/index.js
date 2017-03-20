@@ -18,11 +18,15 @@ function Header() {
   return (
     <div className="container">
       <div className="page-header">
-        <Img src={Headshot} className="img-rounded" alt="headshot" />
-        <h1>
-          <FormattedMessage {...messages.name} />
-          <small><FormattedMessage {...messages.jobTitle} /></small>
-        </h1>
+        <div className="container text-center">
+          <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <Img src={Headshot} className="img-rounded" alt="headshot" />
+          </div>
+          <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <h1><FormattedMessage {...messages.name} /></h1>
+            <h1><small><FormattedMessage {...messages.jobTitle} /></small></h1>
+          </div>
+        </div>
       </div>
     </div>
   );
