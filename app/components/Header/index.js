@@ -19,10 +19,10 @@ function Header() {
     <div className="container">
       <div className="page-header">
         <div className="container text-center">
-          <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          <div className="col-xs-4 col-sm-4 col-md-4 col-lg-6">
             <Img src={Headshot} className="img-rounded" alt="headshot" />
           </div>
-          <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          <div className="col-xs-4 col-sm-4 col-md-4 col-lg-6">
             <h1><FormattedMessage {...messages.name} /></h1>
             <h1><small><FormattedMessage {...messages.jobTitle} /></small></h1>
           </div>
