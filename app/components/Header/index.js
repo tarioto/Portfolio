@@ -17,15 +17,25 @@ import Headshot from './headshot.png';
 function Header() {
   return (
     <div className="container">
-      <div className="page-header">
-        <div className="container text-center">
-          <div className="col-xs-8 col-sm-4 col-md-4 col-lg-4">
-            <Img src={Headshot} className="img-rounded" alt="headshot" />
-          </div>
-          <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-            <h1><FormattedMessage {...messages.name} /></h1>
-            <h1><small><FormattedMessage {...messages.jobTitle} /></small></h1>
-          </div>
+      <div className="navbar navbar-inverse" role="navigation">
+        <div className="navbar-header">
+          <span className="navbar-brand">
+            <FormattedMessage {...messages.name} />
+          </span>
+          <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span className="sr-only">Toggle navigation</span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+          </button>
+        </div>
+        <div className="navbar-collapse collapse">
+          <ul className="nav navbar-nav">
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
         </div>
       </div>
     </div>
