@@ -16,29 +16,29 @@ import Headshot from './headshot.png';
 
 function Header() {
   return (
-    <div className="container">
-      <div className="navbar navbar-inverse" role="navigation">
-        <div className="navbar-header">
-          <span className="navbar-brand">
-            <FormattedMessage {...messages.name} />
-          </span>
-          <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-            <span className="sr-only">Toggle navigation</span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-          </button>
-        </div>
-        <div className="navbar-collapse collapse">
-          <ul className="nav navbar-nav">
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-          </ul>
-        </div>
+    <nav className="navbar navbar-default" role="navigation">
+      <div className="navbar-header">
+        <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+          <span className="sr-only">Toggle navigation</span>
+          <span className="icon-bar"></span>
+          <span className="icon-bar"></span>
+          <span className="icon-bar"></span>
+          {/* <i className="fa fa-bars" aria-hidden="true"></i> */}
+        </button>
+        <span className="navbar-brand">
+          <FormattedMessage {...messages.name} />
+        </span>
       </div>
-    </div>
+      <div className="navbar-collapse collapse">
+        <ul className="nav navbar-nav">
+          <li><a href="#"><i className="fa fa-home" aria-hidden="true" /> Home</a></li>
+          <li><a href="#"><i className="fa fa-user" aria-hidden="true" /> About</a></li>
+          <li><a href="#"><i className="fa fa-briefcase" aria-hidden="true" /> Projects</a></li>
+          <li><a href="#"><i className="fa fa-commenting" aria-hidden="true" /> Hire Me</a></li>
+          <li><a href="#"><i className="fa fa-thumbs-up" aria-hidden="true" /> Social</a></li>
+        </ul>
+      </div>
+    </nav>
   );
 }
 
