@@ -26,6 +26,7 @@ function Header() {
           {/* <i className="fa fa-bars" aria-hidden="true"></i> */}
         </button>
         <span className="navbar-brand">
+          {/* <Img className="img-circle" src={Headshot} alt="Headshot" /> */}
           <FormattedMessage {...messages.name} />
         </span>
       </div>
