@@ -11,8 +11,6 @@ import { FormattedMessage } from 'react-intl';
 import messages from './messages';
 // import NavBar from './NavBar';
 // import HeaderLink from './HeaderLink';
-import Img from './Img';
-import Headshot from './headshot.png';
 
 function Header() {
   return (
