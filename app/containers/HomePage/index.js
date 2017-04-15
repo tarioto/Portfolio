@@ -32,9 +32,6 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
               <div className="panel-body">
                 <FormattedMessage {...messages.header} />
               </div>
-              <div className="panel-body">
-                <FormattedMessage {...messages.header} />
-              </div>
             </div>
           </div>
         </div>
