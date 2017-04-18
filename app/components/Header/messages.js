@@ -12,6 +12,6 @@ export default defineMessages({
   },
   jobTitle: {
     id: 'app.components.Header.jobTitle',
-    defaultMessage: 'Full Stack JS Engineer',
+    defaultMessage: 'Full-stack Javascript Engineer',
   },
 });
