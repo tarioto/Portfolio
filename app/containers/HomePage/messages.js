@@ -8,6 +8,6 @@ import { defineMessages } from 'react-intl';
 export default defineMessages({
   header: {
     id: 'app.components.HomePage.header',
-    defaultMessage: 'Pitch of who I am and what I do',
+    defaultMessage: 'I am a Full-stack Javascript Engineer who likes to work in React.',
   },
 });
