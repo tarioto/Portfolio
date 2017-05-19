@@ -10,7 +10,8 @@ import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
 // import NavBar from './NavBar';
-// import HeaderLink from './HeaderLink';
+import HeaderLink from './HeaderLink';
+import { Link } from 'react-router';
 
 function Header() {
   return (
@@ -30,11 +31,18 @@ function Header() {
       </div>
       <div className="navbar-collapse collapse">
         <ul className="nav navbar-nav nav-pills">
-          <li><a href="#"><i className="fa fa-home" aria-hidden="true" /> Home</a></li>
-          <li><a href="#"><i className="fa fa-user" aria-hidden="true" /> About</a></li>
-          <li><a href="#"><i className="fa fa-briefcase" aria-hidden="true" /> Projects</a></li>
-          <li><a href="#"><i className="fa fa-commenting" aria-hidden="true" /> Hire Me</a></li>
-          <li><a href="#"><i className="fa fa-thumbs-up" aria-hidden="true" /> Social</a></li>
+          {/* <li><HeaderLink to={'/'}><a><i className="fa fa-home" aria-hidden="true" /> Home</a></HeaderLink></li>
+          <li><HeaderLink to={'about'}><a><i className="fa fa-user" aria-hidden="true" /> About</a></HeaderLink></li>
+          <li><HeaderLink to={'projects'}><a><i className="fa fa-briefcase" aria-hidden="true" /> Projects</a></HeaderLink></li>
+          <li><HeaderLink to={'hireme'}><a><i className="fa fa-commenting" aria-hidden="true" /> Hire Me</a></HeaderLink></li>
+          <li><HeaderLink to={'social'}><a><i className="fa fa-thumbs-up" aria-hidden="true" /> Social</a></HeaderLink></li> */}
+
+
+          <li><Link to={'/'}><a><i className="fa fa-home" aria-hidden="true" /> Home</a></Link></li>
+          <li><Link to={'about'}><a><i className="fa fa-user" aria-hidden="true" /> About</a></Link></li>
+          <li><Link to={'projects'}><a><i className="fa fa-briefcase" aria-hidden="true" /> Projects</a></Link></li>
+          <li><Link to={'hireme'}><a><i className="fa fa-commenting" aria-hidden="true" /> Hire Me</a></Link></li>
+          <li><Link to={'social'}><a><i className="fa fa-thumbs-up" aria-hidden="true" /> Social</a></Link></li>
         </ul>
       </div>
     </nav>
