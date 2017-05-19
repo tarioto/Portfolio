@@ -13,7 +13,7 @@
 
 import React from 'react';
 import Header from 'components/Header';
-import Footer from 'components/Footer';
+// import Footer from 'components/Footer';
 import '!!style-loader!css-loader!../../../node_modules/bootstrap/dist/css/bootstrap.css';
 import '!!style-loader!css-loader!../../../node_modules/font-awesome/css/font-awesome.css';
 
@@ -30,7 +30,7 @@ export default class App extends React.PureComponent { // eslint-disable-line re
         <div>
           {React.Children.toArray(this.props.children)}
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
