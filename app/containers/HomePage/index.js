@@ -21,9 +21,10 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
       <div className="container">
         <div className="row">
           <div className="col-xs-12">
-            <h4>
+            <div className="page-header">
+              <h1>Tim Arioto <small>JS Dev</small></h1>
               <FormattedMessage {...messages.header} />
-            </h4>
+            </div>
           </div>
         </div>
         <div className="row">
