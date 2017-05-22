@@ -6,8 +6,20 @@
 import { defineMessages } from 'react-intl';
 
 export default defineMessages({
-  header: {
-    id: 'app.containers.Social.header',
-    defaultMessage: 'This is Social container !',
+  email: {
+    id: 'app.containers.Projects.email',
+    defaultMessage: 'Email',
+  },
+  github: {
+    id: 'app.containers.Projects.github',
+    defaultMessage: 'Github',
+  },
+  linkedIn: {
+    id: 'app.containers.Projects.linkedIn',
+    defaultMessage: 'LinkedIn',
+  },
+  trello: {
+    id: 'app.containers.Projects.trello',
+    defaultMessage: 'Trello',
   },
 });
