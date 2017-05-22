@@ -14,8 +14,12 @@ import messages from './messages';
 export class About extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
-      <div>
-        <FormattedMessage {...messages.header} />
+      <div className="container">
+        <div className="panel panel-default">
+          <div className="panel-body">
+            <FormattedMessage {...messages.header} />
+          </div>
+        </div>
       </div>
     );
   }
