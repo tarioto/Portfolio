@@ -82,6 +82,14 @@ export default function createRoutes(store) {
           .catch(errorLoading);
       },
     }, {
+      path: 'social',
+      name: 'social',
+      getComponent(location, cb) {
+        import('containers/Social')
+          .then(loadModule(cb))
+          .catch(errorLoading);
+      },
+    }, {
       path: '*',
       name: 'notfound',
       getComponent(nextState, cb) {
