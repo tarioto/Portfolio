@@ -15,7 +15,8 @@ export class HireMe extends React.PureComponent { // eslint-disable-line react/p
       <div className="container">
         <div className="panel panel-default">
           <div className="panel-body">
-            <FormattedMessage {...messages.header} />
+            <h1><FormattedMessage {...messages.hireme} /></h1>
+            <FormattedMessage {...messages.callOrEmail} />
           </div>
         </div>
       </div>
