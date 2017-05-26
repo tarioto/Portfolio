@@ -7,11 +7,13 @@
 import React from 'react';
 // import styled from 'styled-components';
 
-import { FormattedMessage } from 'react-intl';
+// import { FormattedMessage } from 'react-intl';
 import { Link } from 'react-router';
-import messages from './messages';
+// import messages from './messages';
 // import NavBar from './NavBar';
 // import HeaderLink from './HeaderLink';
+import Headshot from './headshot.png';
+import Img from './Img';
 
 function Header() {
   return (
@@ -22,8 +24,8 @@ function Header() {
           <i className="fa fa-bars" aria-hidden="true"></i>
         </button>
         <span className="navbar-brand">
-          {/* <Img className="img-circle" src={Headshot} alt="Headshot" /> */}
-          <FormattedMessage {...messages.name} />
+          <Img className="img-circle" src={Headshot} alt="Headshot" />
+          {/* <FormattedMessage {...messages.name} /> */}
         </span>
       </div>
       <div className="navbar-collapse collapse">
