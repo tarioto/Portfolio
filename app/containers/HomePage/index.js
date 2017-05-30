@@ -27,7 +27,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
             </div>
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-xs-12">
             <div className="panel panel-primary">
               <div className="panel-body">
@@ -35,7 +35,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }
